@@ -29,6 +29,10 @@ draft: False
 # This is a list of directories that Sweep will not be able to edit.
 blocked_dirs: []
 
+# The 'description' setting is used to provide a brief overview of your project. This information is used by Sweep when creating pull requests. It can include details about the project's unique features, the frameworks used, coding standards, etc.
+# The 'draft' setting determines whether pull requests should be created as drafts. If set to true, all pull requests will be created as drafts and GitHub Actions will not be triggered.
+# The 'blocked_dirs' setting is a list of directories that Sweep is not allowed to edit. This can be used to prevent Sweep from making changes to certain parts of your codebase.
+
 # This is a list of documentation links that Sweep will use to help it understand your code. You can add links to documentation for any packages you use here.
 #
 # Example:
@@ -44,3 +48,5 @@ sandbox:
   check:
     - trunk fmt {file_path} || return 0
     - trunk check --fix --print-failures {file_path}
+# The 'docs' setting is a list of documentation links that Sweep can use to better understand your code. This can include links to documentation for any packages or libraries used in your project.
+# The 'sandbox' section specifies commands that are executed in a sandboxed environment to validate code changes. This helps ensure that all code changes are valid and do not introduce any new issues.
