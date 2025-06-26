@@ -5,7 +5,7 @@
         "@types/node": "22.15.33"
     },
     "dependencies": {
-        "@pulumi/pulumi": "3.178.0",
+        "@pulumi/pulumi": "3.180.0",
         "@pulumi/kubernetes": "4.23.0"
     }
 }
