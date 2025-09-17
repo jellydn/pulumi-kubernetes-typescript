@@ -2,7 +2,7 @@
     "name": "kubernetes-typescript",
     "main": "index.ts",
     "devDependencies": {
-        "@types/node": "22.18.4"
+        "@types/node": "22.18.5"
     },
     "dependencies": {
         "@pulumi/pulumi": "3.196.0",
