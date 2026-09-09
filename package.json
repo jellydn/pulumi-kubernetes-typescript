@@ -6,6 +6,6 @@
     },
     "dependencies": {
         "@pulumi/pulumi": "3.261.0",
-        "@pulumi/kubernetes": "4.34.0"
+        "@pulumi/kubernetes": "4.34.1"
     }
 }
